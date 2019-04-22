@@ -1,0 +1,26 @@
+What is Spark?
+What is architecture of Spark?
+What is RDD?
+What is Dataframe?
+
+What is Partitions?
+
+To all every executor to perform work in parallel, Spark breaks up the data 
+into chunks called partitions.
+An important thing to note is that DataFrames you do not manipulate partitions
+manually or individually. 
+
+What is transformation?
+What is action?
+Action instructs Spark to compute a result from a series of transformation.
+there are 3 kinds of actionss:
+1. to view data in the console
+2. to collect data to native objects in the respective language.
+3. to write to output data sources.
+
+What is the difference between col and column function
+
+if you need to refer specific dataframe column, you can use the col method on the
+specific dataframe.
+
+
